@@ -1,2 +1,5 @@
-password = ("sri123@")
-password_input = input("enter the password:")
+password ="sri@123"
+if len(password)>=8 and"@"in password:
+    print("valid password")
+else:
+    print("invalid password")
